@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/FTikNib.BinAnalysis/FTikNib.BinAnalysis.fsproj" />
+    <Project Path="src/FTikNib.Cli/FTikNib.Cli.fsproj" />
+    <Project Path="src/FTikNib.Core/FTikNib.Core.fsproj" />
+    <Project Path="src/FTikNib.Experiment/FTikNib.Experiment.fsproj" />
+    <Project Path="src/FTikNib.Features/FTikNib.Features.fsproj" />
+    <Project Path="src/FTikNib.Filtering/FTikNib.Filtering.fsproj" />
+  </Folder>
+</Solution>

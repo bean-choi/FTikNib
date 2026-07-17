@@ -10,6 +10,25 @@ type FeatureExtractionResult = {
   Functions: FunctionFeatures list
 }
 
+type FunctionPresence = {
+  BinaryId: string
+  FunctionId: string
+  Name: string
+  StartAddress: uint64
+  Size: uint64 option
+}
+
+type FunctionComparisonRow = {
+  Name: string
+  PresentIn: FunctionPresence list
+  MissingIn: string list
+}
+
+type FunctionComparisonResult = {
+  Binaries: BinaryInfo list
+  Rows: FunctionComparisonRow list
+}
+
 type SimilarityResult = {
   LeftFunctionId: string
   RightFunctionId: string

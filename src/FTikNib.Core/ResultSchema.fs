@@ -41,3 +41,5 @@ type EvaluationResult = {
   AveragePrecision: float option
   TopKAccuracy: Map<int, float>
 }
+
+//FunctionFilteringResult은 FliterTypes.fs

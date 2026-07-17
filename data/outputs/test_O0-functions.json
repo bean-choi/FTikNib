@@ -1,0 +1,48 @@
+{
+  "Binary": {
+    "BinaryId": "test_O0",
+    "Path": "./data/samples/test_O0",
+    "FileName": "test_O0",
+    "Architecture": "aarch64",
+    "Compiler": null,
+    "Optimization": null
+  },
+  "Functions": [
+    {
+      "BinaryId": "test_O0",
+      "FunctionId": "test_O0:_main:0x100003ebc",
+      "Name": "_main",
+      "StartAddress": 4294983356,
+      "EndAddress": null,
+      "Size": null,
+      "Architecture": "aarch64"
+    },
+    {
+      "BinaryId": "test_O0",
+      "FunctionId": "test_O0:_add:0x100003f30",
+      "Name": "_add",
+      "StartAddress": 4294983472,
+      "EndAddress": null,
+      "Size": null,
+      "Architecture": "aarch64"
+    },
+    {
+      "BinaryId": "test_O0",
+      "FunctionId": "test_O0:_sub:0x100003f50",
+      "Name": "_sub",
+      "StartAddress": 4294983504,
+      "EndAddress": null,
+      "Size": null,
+      "Architecture": "aarch64"
+    },
+    {
+      "BinaryId": "test_O0",
+      "FunctionId": "test_O0:_mul:0x100003f70",
+      "Name": "_mul",
+      "StartAddress": 4294983536,
+      "EndAddress": null,
+      "Size": null,
+      "Architecture": "aarch64"
+    }
+  ]
+}

@@ -2,6 +2,7 @@
 open FTikNib.Core
 open FTikNib.BinAnalysis
 open FTikNib.Experiment
+open FTikNib.Filtering
 
 let printUsage () =
   printfn "FTikNib"
@@ -100,7 +101,34 @@ let main argv =
           printfn "Found %d unique function names" comparison.Rows.Length
           printfn "Saved comparison result to %s" outPath
           0
+  | [| "filter-functions"; inputPath; "--out"; outPath |] ->
+    let input =
+      Json.load<BinaryAnalysisResult> inputPath
 
+    let filterResult =
+      FunctionFilter.filterDefault input.Functions
+
+    let output: FunctionFilteringResult = {
+      Binary = input.Binary
+      OriginalCount = input.Functions.Length
+      IncludedFunctions = filterResult.Included
+      ExcludedFunctions =
+        filterResult.Excluded
+        |> List.map (fun excluded ->
+            {
+              Function = excluded.Function
+              Reasons = excluded.Reasons
+            })
+    }
+
+    Json.save outPath output
+
+    printfn "Original functions: %d" input.Functions.Length
+    printfn "Filtered functions: %d" output.IncludedFunctions.Length
+    printfn "Excluded functions: %d" filterResult.Excluded.Length
+    printfn "Saved filtered function list to %s" outPath
+
+    0
   | _ ->
       printUsage ()
       1

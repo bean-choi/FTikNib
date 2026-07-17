@@ -6,6 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="FilterTypes.fs" />
+    <Compile Include="FunctionName.fs" />
+    <Compile Include="FunctionFilter.fs" />
   </ItemGroup>
 
   <ItemGroup>

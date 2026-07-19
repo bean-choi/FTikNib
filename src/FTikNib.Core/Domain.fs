@@ -37,6 +37,11 @@ type FunctionInfo = {
   EndAddress: uint64 option
   Size: uint64 option
   Architecture: string
+
+  SectionName: string option
+  SectionKind: string option
+  IsExecutableSection: bool
+  SymbolBinding: string
 }
 
 type FunctionPair = {

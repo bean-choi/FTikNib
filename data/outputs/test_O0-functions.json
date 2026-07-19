@@ -15,7 +15,24 @@
       "StartAddress": 4294983356,
       "EndAddress": null,
       "Size": null,
-      "Architecture": "aarch64"
+      "Architecture": "aarch64",
+      "SectionName": "__text",
+      "SectionKind": "CodeSection",
+      "IsExecutableSection": true,
+      "SymbolBinding": "Local"
+    },
+    {
+      "BinaryId": "test_O0",
+      "FunctionId": "test_O0:_main:0x100003ebc",
+      "Name": "_main",
+      "StartAddress": 4294983356,
+      "EndAddress": null,
+      "Size": null,
+      "Architecture": "aarch64",
+      "SectionName": "__text",
+      "SectionKind": "CodeSection",
+      "IsExecutableSection": true,
+      "SymbolBinding": "Global"
     },
     {
       "BinaryId": "test_O0",
@@ -24,7 +41,24 @@
       "StartAddress": 4294983472,
       "EndAddress": null,
       "Size": null,
-      "Architecture": "aarch64"
+      "Architecture": "aarch64",
+      "SectionName": "__text",
+      "SectionKind": "CodeSection",
+      "IsExecutableSection": true,
+      "SymbolBinding": "Local"
+    },
+    {
+      "BinaryId": "test_O0",
+      "FunctionId": "test_O0:_add:0x100003f30",
+      "Name": "_add",
+      "StartAddress": 4294983472,
+      "EndAddress": null,
+      "Size": null,
+      "Architecture": "aarch64",
+      "SectionName": "__text",
+      "SectionKind": "CodeSection",
+      "IsExecutableSection": true,
+      "SymbolBinding": "Local"
     },
     {
       "BinaryId": "test_O0",
@@ -33,7 +67,24 @@
       "StartAddress": 4294983504,
       "EndAddress": null,
       "Size": null,
-      "Architecture": "aarch64"
+      "Architecture": "aarch64",
+      "SectionName": "__text",
+      "SectionKind": "CodeSection",
+      "IsExecutableSection": true,
+      "SymbolBinding": "Local"
+    },
+    {
+      "BinaryId": "test_O0",
+      "FunctionId": "test_O0:_sub:0x100003f50",
+      "Name": "_sub",
+      "StartAddress": 4294983504,
+      "EndAddress": null,
+      "Size": null,
+      "Architecture": "aarch64",
+      "SectionName": "__text",
+      "SectionKind": "CodeSection",
+      "IsExecutableSection": true,
+      "SymbolBinding": "Local"
     },
     {
       "BinaryId": "test_O0",
@@ -42,7 +93,24 @@
       "StartAddress": 4294983536,
       "EndAddress": null,
       "Size": null,
-      "Architecture": "aarch64"
+      "Architecture": "aarch64",
+      "SectionName": "__text",
+      "SectionKind": "CodeSection",
+      "IsExecutableSection": true,
+      "SymbolBinding": "Local"
+    },
+    {
+      "BinaryId": "test_O0",
+      "FunctionId": "test_O0:_mul:0x100003f70",
+      "Name": "_mul",
+      "StartAddress": 4294983536,
+      "EndAddress": null,
+      "Size": null,
+      "Architecture": "aarch64",
+      "SectionName": "__text",
+      "SectionKind": "CodeSection",
+      "IsExecutableSection": true,
+      "SymbolBinding": "Local"
     }
   ]
 }

@@ -43,6 +43,13 @@
           "Name": "_add",
           "StartAddress": 4294983472,
           "Size": null
+        },
+        {
+          "BinaryId": "test_O0",
+          "FunctionId": "test_O0:_add:0x100003f30",
+          "Name": "_add",
+          "StartAddress": 4294983472,
+          "Size": null
         }
       ],
       "MissingIn": [
@@ -62,6 +69,20 @@
           "Size": null
         },
         {
+          "BinaryId": "test_O0",
+          "FunctionId": "test_O0:_main:0x100003ebc",
+          "Name": "_main",
+          "StartAddress": 4294983356,
+          "Size": null
+        },
+        {
+          "BinaryId": "test_O1",
+          "FunctionId": "test_O1:_main:0x100003f68",
+          "Name": "_main",
+          "StartAddress": 4294983528,
+          "Size": null
+        },
+        {
           "BinaryId": "test_O1",
           "FunctionId": "test_O1:_main:0x100003f68",
           "Name": "_main",
@@ -71,6 +92,20 @@
         {
           "BinaryId": "test_O2",
           "FunctionId": "test_O2:_main:0x100003f68",
+          "Name": "_main",
+          "StartAddress": 4294983528,
+          "Size": null
+        },
+        {
+          "BinaryId": "test_O2",
+          "FunctionId": "test_O2:_main:0x100003f68",
+          "Name": "_main",
+          "StartAddress": 4294983528,
+          "Size": null
+        },
+        {
+          "BinaryId": "test_O3",
+          "FunctionId": "test_O3:_main:0x100003f68",
           "Name": "_main",
           "StartAddress": 4294983528,
           "Size": null
@@ -94,6 +129,13 @@
           "Name": "_mul",
           "StartAddress": 4294983536,
           "Size": null
+        },
+        {
+          "BinaryId": "test_O0",
+          "FunctionId": "test_O0:_mul:0x100003f70",
+          "Name": "_mul",
+          "StartAddress": 4294983536,
+          "Size": null
         }
       ],
       "MissingIn": [
@@ -105,6 +147,13 @@
     {
       "Name": "sub",
       "PresentIn": [
+        {
+          "BinaryId": "test_O0",
+          "FunctionId": "test_O0:_sub:0x100003f50",
+          "Name": "_sub",
+          "StartAddress": 4294983504,
+          "Size": null
+        },
         {
           "BinaryId": "test_O0",
           "FunctionId": "test_O0:_sub:0x100003f50",
